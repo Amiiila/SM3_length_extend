@@ -11,6 +11,8 @@ implement length extension attack for SM3
 ## 实验过程
 根据实验原理，分别计算hash1和hash2（在代码中对应ext_h与new_h）并输出，若两者相等则长度扩展攻击成功。
 其中，SM3的实现参考了<https://github.com/hjzin/SM3LengthExtensionAttack>中my_sm3文件。
+## 运行指导
+可直接运行
 ## 结果展示
 ![image](https://user-images.githubusercontent.com/110109750/182007752-b585b235-2960-4f78-bd10-93abbe571121.png)
 ## 参考文献
